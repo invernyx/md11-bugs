@@ -7,13 +7,13 @@ body:
   - type: input
     attributes:
       label: Describe the bug
-      description: Please describe the bug you have, with a clear and concise description.
+      description: Please describe the bug you have, with a clear and concise description
     validations:
       required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
-      description: Please provide detailed steps to reproduce the issue you are having.
+      description: Please provide detailed steps to reproduce the issue you are having
     validations:
       required: true
   - type: textarea
@@ -25,7 +25,13 @@ body:
   - type: textarea
     attributes:
       label: Evidence
-      description: If you have any screenshots or videos that you can provide of this bug, please list them here
+      description: |
+      If you have any screenshots or videos that you can provide, please list them here.
+      Tip: You can drag and drop images into this box to upload them.
+      
+      If you have any reference material which may help us, please list them here.
+    validations:
+      required: false
   - type: dropdown
     attributes:
       label: Simulator
@@ -50,13 +56,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        "By submitting this issue, you understand that the TFDi Design team may need to contact you for more
+        ### Acknowledgement
+        By submitting this issue, you understand that the TFDi Design team may need to contact you for more
         information regarding this bug. If we request information, and it is no response provided within 2 weeks
-        your issue will be closed as "stale". You will be able to re-open the issue with a comment if this happens."
+        your issue will be closed as "stale". You will be able to re-open the issue with a comment if this happens.
   - type: checkboxes
     attributes:
-      label: Acknowledgement
-      description: By ticking this box, you understand and agree to the above statement.
+      label: Agreement
+      description: By ticking this box, you understand and agree to the above statement
       options:
       - label: "Yes"
         required: true
