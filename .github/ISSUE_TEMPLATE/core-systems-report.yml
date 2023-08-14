@@ -1,7 +1,7 @@
-name: Something Elsew
-description: Report a generic bug
+name: Core Systems Report
+description: Report a bug with a core system (fuel, electrical, hydraulics, air)
 title: "[BUG] - {{Brief Description}}"
-labels: "verification required"
+labels: ["core", "verification required"]
 assignees: []
 body:
   - type: input
@@ -51,6 +51,48 @@ body:
       options:
         - "Yes"
         - "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Phase of flight
+      description: What phase of flight were you in?
+      options:
+        - Pre-flight
+        - Takeoff
+        - Climb
+        - Cruise
+        - Descent
+        - Approach
+        - Landing
+        - Post-flight
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### Critical Flight Parameters"
+  - type: input
+    attributes:
+      label: Pitch
+      description: What was your pitch?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Bank
+      description: What was your bank?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Heading
+      description: What was your heading?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Altitude
+      description: What was your altitude?
     validations:
       required: true
   - type: markdown

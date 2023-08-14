@@ -1,7 +1,7 @@
-name: Something Elsew
-description: Report a generic bug
+name: Visual Bug
+description: Report a bug with the model or textures
 title: "[BUG] - {{Brief Description}}"
-labels: "verification required"
+labels: ["artwork", "verification required"]
 assignees: []
 body:
   - type: input
@@ -19,19 +19,18 @@ body:
   - type: textarea
     attributes:
       label: Expected behaviour
-      description: Please describe the behaviour you are expecting, with reference if this is available to you
+      description: Please describe the behaviour you are expecting, with reference if this is available to you.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Evidence
       description: |
-        If you have any screenshots or videos that you can provide, please list them here.
-        If you have any reference material which may help us, please list them here.
+        Reference material (such as photos or videos) are required, as well as screenshots or videos of the bug itself.
         
         Tip: You can drag and drop images into this box to upload them.
     validations:
-      required: false
+      required: true
   - type: dropdown
     attributes:
       label: Simulator
@@ -42,15 +41,6 @@ body:
         - P3Dv6
         - Microsoft Flight Simulator 2020 (MSFS)
       multiple: true
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Crash
-      description: Did this bug cause a crash?
-      options:
-        - "Yes"
-        - "No"
     validations:
       required: true
   - type: markdown

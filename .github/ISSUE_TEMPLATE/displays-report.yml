@@ -1,7 +1,7 @@
-name: Something Elsew
-description: Report a generic bug
+name: Displays Bug
+description: Report a bug with the displays
 title: "[BUG] - {{Brief Description}}"
-labels: "verification required"
+labels: ["displays", "verification required"]
 assignees: []
 body:
   - type: input

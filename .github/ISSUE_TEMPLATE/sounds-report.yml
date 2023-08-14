@@ -1,7 +1,7 @@
-name: Something Elsew
-description: Report a generic bug
+name: Audio Bug
+description: Report a bug with sounds
 title: "[BUG] - {{Brief Description}}"
-labels: "verification required"
+labels: ["sounds", "verification required"]
 assignees: []
 body:
   - type: input
@@ -42,15 +42,6 @@ body:
         - P3Dv6
         - Microsoft Flight Simulator 2020 (MSFS)
       multiple: true
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Crash
-      description: Did this bug cause a crash?
-      options:
-        - "Yes"
-        - "No"
     validations:
       required: true
   - type: markdown
