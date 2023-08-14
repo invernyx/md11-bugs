@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: TFDi Design Support
+    url: https://support.tfdidesign.com/
+    about: Our support portal for all general support questions
+  - name: TFDi Design Discord
+    url: https://discord.gg/tfdidesign
+    about: The official TFDi Design Discord server

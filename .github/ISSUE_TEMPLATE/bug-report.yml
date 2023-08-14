@@ -1,0 +1,63 @@
+name: 🐞 Bug
+description: Report a generic bug
+title: "[BUG] - {{Brief Description}}"
+labels: "verification required"
+assigness: []
+body:
+  - type: input
+    attributes:
+      label: Describe the bug
+      description: Please describe the bug you have, with a clear and concise description.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Please provide detailed steps to reproduce the issue you are having.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      description: Please describe the behaviour you are expecting, with reference if this is available to you
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence
+      description: If you have any screenshots or videos that you can provide of this bug, please list them here
+  - type: dropdown
+    attributes:
+      label: Simulator
+      description: Which simulator are you using?
+      options:
+        - P3Dv4
+        - P3Dv5
+        - P3Dv6
+        - Microsoft Flight Simulator 2020 (MSFS)
+      multiple: true
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Crash
+      description: Did this bug cause a crash?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        By submitting this issue, you understand that the TFDi Design team may need to contact you for more
+        information regarding this bug. If we request information, and it is no response provided within 2 weeks
+        your issue will be closed as "stale". You will be able to re-open the issue with a comment if this happens.
+  - type: checkboxes
+    attributes:
+      label: Acknowledgement
+      description: By ticking this box, you understand and agree to the above statement.
+      options:
+        - Yes
+    validations:
+      required: true
