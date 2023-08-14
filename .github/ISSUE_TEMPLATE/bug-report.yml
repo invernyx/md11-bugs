@@ -26,10 +26,10 @@ body:
     attributes:
       label: Evidence
       description: |
-      If you have any screenshots or videos that you can provide, please list them here.
-      If you have any reference material which may help us, please list them here.
-      
-      Tip! - You can drag and drop images into this box to upload them.
+        If you have any screenshots or videos that you can provide, please list them here.
+        If you have any reference material which may help us, please list them here.
+        
+        Tip: You can drag and drop images into this box to upload them.
     validations:
       required: false
   - type: dropdown
