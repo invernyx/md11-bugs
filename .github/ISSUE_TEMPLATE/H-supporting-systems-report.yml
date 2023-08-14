@@ -1,7 +1,7 @@
-name: G - Flight Dynamics Bug
-description: Report a bug with the flight dynamics
+name: Supporting System Bug
+description: Report a bug with a supporting system (CPDLC, smartCARS integrations)
 title: "[BUG] - {{Brief Description}}"
-labels: ["flight dynamics", "verification required"]
+labels: ["supporting system", "verification required"]
 assignees: []
 body:
   - type: input

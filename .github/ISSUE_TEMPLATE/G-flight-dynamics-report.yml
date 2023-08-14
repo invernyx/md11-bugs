@@ -1,7 +1,7 @@
-name: J - Something Else
-description: Report a generic bug
+name: Flight Dynamics Bug
+description: Report a bug with the flight dynamics
 title: "[BUG] - {{Brief Description}}"
-labels: "verification required"
+labels: ["flight dynamics", "verification required"]
 assignees: []
 body:
   - type: input
@@ -42,15 +42,6 @@ body:
         - P3Dv6
         - Microsoft Flight Simulator 2020 (MSFS)
       multiple: true
-    validations:
-      required: true
-  - type: dropdown
-    attributes:
-      label: Crash
-      description: Did this bug cause a crash?
-      options:
-        - "Yes"
-        - "No"
     validations:
       required: true
   - type: markdown

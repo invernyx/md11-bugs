@@ -1,7 +1,7 @@
-name: D - Core Systems Report
-description: Report a bug with a core system (fuel, electrical, hydraulics, air)
+name: Autoflight Bug
+description: Report a bug with the autoflight system
 title: "[BUG] - {{Brief Description}}"
-labels: ["core", "verification required"]
+labels: ["autoflight", "verification required"]
 assignees: []
 body:
   - type: input
@@ -76,23 +76,87 @@ body:
       label: Pitch
       description: What was your pitch?
     validations:
-      required: true
+      required: false
   - type: input
     attributes:
       label: Bank
       description: What was your bank?
     validations:
-      required: true
+      required: false
   - type: input
     attributes:
       label: Heading
       description: What was your heading?
     validations:
-      required: true
+      required: false
   - type: input
     attributes:
       label: Altitude
       description: What was your altitude?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "### Itenerary"
+  - type: input
+    attributes:
+      label: Departure
+      description: What was your departure? Please provide this in ICAO format
+      placeholder: KTPA
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Arrival
+      description: What was your arrival? Please provide this in ICAO format
+      placeholder: KTPA
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Cruise level
+      description: What was your cruise level?
+      placeholder: FL350
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: ZFW
+      description: What was your ZFW? Please provide your units
+      placeholder: 61.2 LBS
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: CG
+      description: What was your CG?
+      placeholder: 31%
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Fuel
+      description: How much fuel was on-board? Please provide your units
+      placeholder: 12.2 LBS
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Cost index
+      description: What was your cost index set to?
+      placeholder: "25"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Route
+      description: Please provide your routing, including runway, SID, STAR and transitions used
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Location
+      description: Please describe your location as best as you can. Ideally, this would be in reference to a waypoint
     validations:
       required: true
   - type: markdown

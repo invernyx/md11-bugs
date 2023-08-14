@@ -1,4 +1,4 @@
-name: C - Displays Bug
+name: Displays Bug
 description: Report a bug with the displays
 title: "[BUG] - {{Brief Description}}"
 labels: ["displays", "verification required"]

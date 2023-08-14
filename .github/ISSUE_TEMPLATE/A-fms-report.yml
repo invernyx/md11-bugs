@@ -1,4 +1,4 @@
-name: A - FMS Bug
+name: FMS Bug
 description: Report a bug with the FMS or MCDU
 title: "[BUG] - {{Brief Description}}"
 labels: ["fms", "verification required"]
