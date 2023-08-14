@@ -2,7 +2,7 @@ name: 🐞 Bug
 description: Report a generic bug
 title: "[BUG] - {{Brief Description}}"
 labels: "verification required"
-assigness: []
+assignees: []
 body:
   - type: input
     attributes:
@@ -43,16 +43,16 @@ body:
       label: Crash
       description: Did this bug cause a crash?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
-        By submitting this issue, you understand that the TFDi Design team may need to contact you for more
+        "By submitting this issue, you understand that the TFDi Design team may need to contact you for more
         information regarding this bug. If we request information, and it is no response provided within 2 weeks
-        your issue will be closed as "stale". You will be able to re-open the issue with a comment if this happens.
+        your issue will be closed as "stale". You will be able to re-open the issue with a comment if this happens."
   - type: checkboxes
     attributes:
       label: Acknowledgement
