@@ -144,7 +144,7 @@ body:
     attributes:
       label: Cost index
       description: What was your cost index set to?
-      placeholder: 25
+      placeholder: "25"
     validations:
       required: true
   - type: textarea
