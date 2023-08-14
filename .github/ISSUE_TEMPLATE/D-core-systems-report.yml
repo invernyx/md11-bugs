@@ -68,27 +68,6 @@ body:
         - Post-flight
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "### Critical Flight Parameters"
-  - type: input
-    attributes:
-      label: Pitch
-      description: What was your pitch?
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Bank
-      description: What was your bank?
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Heading
-      description: What was your heading?
-    validations:
-      required: true
   - type: input
     attributes:
       label: Altitude
