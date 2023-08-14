@@ -1,4 +1,4 @@
-name: Autoflight Bug
+name: B - Autoflight Bug
 description: Report a bug with the autoflight system
 title: "[BUG] - {{Brief Description}}"
 labels: ["autoflight", "verification required"]

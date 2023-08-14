@@ -1,4 +1,4 @@
-name: Supporting System Bug
+name: H - Supporting System Bug
 description: Report a bug with a supporting system (CPDLC, smartCARS integrations)
 title: "[BUG] - {{Brief Description}}"
 labels: ["supporting system", "verification required"]

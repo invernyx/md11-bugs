@@ -1,4 +1,4 @@
-name: Flight Dynamics Bug
+name: G - Flight Dynamics Bug
 description: Report a bug with the flight dynamics
 title: "[BUG] - {{Brief Description}}"
 labels: ["flight dynamics", "verification required"]

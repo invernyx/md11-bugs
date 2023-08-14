@@ -1,4 +1,4 @@
-name: Audio Bug
+name: E - Audio Bug
 description: Report a bug with sounds
 title: "[BUG] - {{Brief Description}}"
 labels: ["sounds", "verification required"]

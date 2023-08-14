@@ -1,4 +1,4 @@
-name: Visual Bug
+name: F - Visual Bug
 description: Report a bug with the model or textures
 title: "[BUG] - {{Brief Description}}"
 labels: ["artwork", "verification required"]
