@@ -58,5 +58,5 @@ body:
       label: Acknowledgement
       description: By ticking this box, you understand and agree to the above statement.
       options:
-        - "Yes"
+      - label: "Yes"
         required: true
