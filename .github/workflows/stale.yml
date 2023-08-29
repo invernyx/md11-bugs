@@ -5,6 +5,7 @@ on:
 jobs:
   stale:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - uses: actions/stale@v8
         with:
