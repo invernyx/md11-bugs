@@ -22,6 +22,8 @@ There are many. Among them are:
 - Switches and buttons do not (yet) make sound
 - This release includes only the GE passenger variant
 - There are no lights, except for pressing the dome light button which will flood the cockpit with light
+- Payload management is not yet available
+- Panel states do not work
 
 ## Reporting Bugs
 Before submitting an issue, you should verify that your issue [has not already been reported](https://github.com/invernyx/md11-bugs/issues?q=is%3Aissue+is%3Aopen+label%3Abug%2C%22verification+required%22). If it has, please add a comment to the existing issue instead of creating a new one with any further information you may be able to present.
