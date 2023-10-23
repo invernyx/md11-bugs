@@ -18,7 +18,6 @@ This is the official bug report repository for the TFDi Design MD-11. You may re
 There are many. Among them are:
 - EFB does not control the aircraft
 - AP VOR tracking is not implemented
-- P3D version is not yet available
 - Switches and buttons do not (yet) make sound
 - This release includes only the GE passenger variant
 - There are no lights, except for pressing the dome light button which will flood the cockpit with light
