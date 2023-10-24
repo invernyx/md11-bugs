@@ -16,6 +16,7 @@ This is the official bug report repository for the TFDi Design MD-11. You may re
 
 **Known issues/limitations:**
 There are many. Among them are:
+- The analog standby and ISFD currently coexist
 - EFB does not control the aircraft
 - AP VOR tracking is not implemented
 - P3D version is not yet available
