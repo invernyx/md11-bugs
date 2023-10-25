@@ -24,6 +24,7 @@ There are many. Among them are:
 - This release includes only the GE passenger variant
 - There are no lights, except for pressing the dome light button which will flood the cockpit with light
 - Payload management is not yet available
+- The nose wheel is visually turned left
 - ~~Panel states do not work~~ (Fixed as of 0.6.0-alpha)
 
 ## Reporting Bugs
