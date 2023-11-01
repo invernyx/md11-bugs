@@ -1,7 +1,7 @@
 name: FMS Bug
 description: Report a bug with the FMS or MCDU
 title: "[BUG] - {{Brief Description}}"
-labels: ["fms", "verification required"]
+labels: ["sys: fms", "type: verification required"]
 assignees: []
 body:
   - type: input

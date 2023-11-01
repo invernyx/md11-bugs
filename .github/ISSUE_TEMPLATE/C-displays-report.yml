@@ -1,7 +1,7 @@
 name: Displays Bug
 description: Report a bug with the displays
 title: "[BUG] - {{Brief Description}}"
-labels: ["displays", "verification required"]
+labels: ["sys: displays", "type: verification required"]
 assignees: []
 body:
   - type: input

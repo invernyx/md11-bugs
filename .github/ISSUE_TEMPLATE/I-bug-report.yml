@@ -1,7 +1,7 @@
 name: Something Else
 description: Report a generic bug
 title: "[BUG] - {{Brief Description}}"
-labels: "verification required"
+labels: "type: verification required"
 assignees: []
 body:
   - type: input

@@ -1,7 +1,7 @@
 name: Core Systems Report
 description: Report a bug with a core system (fuel, electrical, hydraulics, air)
 title: "[BUG] - {{Brief Description}}"
-labels: ["core", "verification required"]
+labels: ["sys: core", "type: verification required"]
 assignees: []
 body:
   - type: input

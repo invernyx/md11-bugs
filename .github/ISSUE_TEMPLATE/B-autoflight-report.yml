@@ -1,7 +1,7 @@
 name: Autoflight Bug
 description: Report a bug with the autoflight system
 title: "[BUG] - {{Brief Description}}"
-labels: ["autoflight", "verification required"]
+labels: ["sys: autoflight", "type: verification required"]
 assignees: []
 body:
   - type: input

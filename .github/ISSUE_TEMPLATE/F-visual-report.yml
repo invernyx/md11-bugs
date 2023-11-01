@@ -1,7 +1,7 @@
 name: Visual Bug
 description: Report a bug with the model or textures
 title: "[BUG] - {{Brief Description}}"
-labels: ["visual", "verification required"]
+labels: ["sys: visual", "type: verification required"]
 assignees: []
 body:
   - type: input
