@@ -1,6 +1,6 @@
 name: Audio Bug
 description: Report a bug with sounds
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: sounds", "type: verification required"]
 assignees: []
 body:

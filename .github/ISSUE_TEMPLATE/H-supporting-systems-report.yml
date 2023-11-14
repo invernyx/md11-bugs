@@ -1,6 +1,6 @@
 name: Supporting System Bug
 description: Report a bug with a supporting system (CPDLC, smartCARS integrations)
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: supporting system", "type: verification required"]
 assignees: []
 body:

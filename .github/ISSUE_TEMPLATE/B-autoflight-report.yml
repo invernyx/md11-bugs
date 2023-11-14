@@ -1,6 +1,6 @@
 name: Autoflight Bug
 description: Report a bug with the autoflight system
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: autoflight", "type: verification required"]
 assignees: []
 body:
