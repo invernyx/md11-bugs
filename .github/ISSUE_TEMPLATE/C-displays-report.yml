@@ -12,12 +12,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Steps to reproduce
-      description: Please provide detailed steps to reproduce the issue you are having
-    validations:
-      required: true
-  - type: textarea
-    attributes:
       label: Expected behaviour
       description: Please describe the behaviour you are expecting, with reference if this is available to you
     validations:
@@ -30,7 +24,7 @@ body:
         
         Tip: You can drag and drop images into this box to upload them.
     validations:
-      required: true
+      required: false
   - type: dropdown
     attributes:
       label: Simulator
