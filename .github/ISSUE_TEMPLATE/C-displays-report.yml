@@ -1,6 +1,6 @@
 name: Displays Bug
 description: Report a bug with the displays
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: displays", "type: verification required"]
 assignees: []
 body:

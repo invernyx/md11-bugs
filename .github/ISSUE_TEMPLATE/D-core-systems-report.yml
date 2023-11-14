@@ -1,6 +1,6 @@
 name: Core Systems Report
 description: Report a bug with a core system (fuel, electrical, hydraulics, air)
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: core", "type: verification required"]
 assignees: []
 body:

@@ -1,6 +1,6 @@
 name: Something Else
 description: Report a generic bug
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: "type: verification required"
 assignees: []
 body:

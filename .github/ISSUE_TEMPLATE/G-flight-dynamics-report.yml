@@ -1,6 +1,6 @@
 name: Flight Dynamics Bug
 description: Report a bug with the flight dynamics
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: flight dynamics", "type: verification required"]
 assignees: []
 body:

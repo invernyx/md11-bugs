@@ -1,6 +1,6 @@
 name: Visual Bug
 description: Report a bug with the model or textures
-title: "[BUG] - {{Brief Description}}"
+title: "[BUG] - REPLACE ME"
 labels: ["sys: visual", "type: verification required"]
 assignees: []
 body:

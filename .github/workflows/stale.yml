@@ -15,4 +15,4 @@ jobs:
           days-before-pr-close: -1
           stale-issue-message: "This issue has been marked as stale! This means that we're waiting for your response and we haven't heard anything in 12 days. If you'd like to keep this issue open, please leave a comment with the information previously requested. If we don't receive a comment within 48 hours, this issue will be closed, and you will be required to re-submit."
           close-issue-message: "We haven't heard from you within 48 hours of the issue becoming stale, so it has closed. If you are still experiencing this bug, please open another issue and make sure you include all the requested information."
-          exempt-issue-labels: "type: bug,type: todo,type: verification required,info: documentation"
+          exempt-issue-labels: "type: bug,type: todo,type: suggestion"
