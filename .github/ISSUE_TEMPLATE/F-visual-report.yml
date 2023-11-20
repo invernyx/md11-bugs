@@ -37,6 +37,18 @@ body:
       multiple: true
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Aircraft Type
+      description: Which aircraft are you using?
+      options:
+        - Passenger GE
+        - Passenger PW
+        - Freighter GE
+        - Freighter PW
+      multiple: false
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
