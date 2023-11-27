@@ -4,6 +4,11 @@ title: "[BUG] - REPLACE ME"
 labels: ["sys: core", "type: verification required"]
 assignees: []
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Issue Title
+        Please change the title of this issue to describe the bug you are having. Do not remove the "[BUG]" prefix.
   - type: input
     attributes:
       label: Describe the bug

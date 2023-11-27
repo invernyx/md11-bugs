@@ -4,6 +4,11 @@ title: "[SUGGESTION] - REPLACE ME"
 labels: ["type: suggestion"]
 assignees: []
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Suggestion Title
+        Please change the title of this issue to describe your suggestion. Do not remove the "[SUGGESTION]" prefix.
   - type: textarea
     attributes:
       label: Is your feature request related to a problem? Please describe.
