@@ -6,10 +6,10 @@ This is the official bug report repository for the TFDi Design MD-11. Here you w
 - G/A mode is inoperative
 - Switches do not make sounds
 - SimBrief integration is not fully working on the EFB
-- There is not currently a Prepar3D version
 - There is not currently a PW engine model variant
 - Autopilot VOR tracking is inoperable
 - The flap PIP pylon option is not working
+- The P3D build is somewhat rough around the edges
 
 ## Reporting Bugs
 Before submitting an issue, you should verify that your issue [has not already been reported](https://github.com/invernyx/md11-bugs/issues?q=is%3Aissue+is%3Aopen+label%3Abug%2C%22verification+required%22). If it has, please add a comment to the existing issue instead of creating a new one with any further information you may be able to present.
