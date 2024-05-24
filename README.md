@@ -15,6 +15,6 @@ To report a bug, please create a [new issue](https://github.com/invernyx/md11-bu
 Issues will go stale if we have not received the information we required after 12 days. We will then bump you on the issue, letting you know the issue is stale. If we do not receive a response within 48 hours, we will close the issue and you will be required to resubmit.
 
 # What to Expect with The Current Version
-The aircraft stability and feature level is at an early-access level. This means **there will be noticeable bugs** and **some minor systems are missing**.
+The aircraft stability and feature level is currently beta level. This means **there will be some bugs** and **minor functionality from certain systems may be missing**.
 
-If you are expecting a polished, smooth experience on every flight, do not fly the aircraft yet. If you are looking forward to helping us refine and finish what is on its way to becoming one of the most complex aircraft on the market, we encourage you to join us in the skies.
+If you are expecting a perfect experience on every flight, do not fly the aircraft yet. If you would like to help us round out the final rough edges as we approach release, we encourage you to join us in the skies.
