@@ -1,0 +1,95 @@
+name: Failure Report
+description: Report a bug with an Extended Sim-driven failure
+title: "[BUG] - REPLACE ME"
+labels: ["sys: failures", "type: verification required"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Issue Title
+        Please change the title of this issue to describe the bug you are having. Do not remove the "[BUG]" prefix.
+  - type: input
+    attributes:
+      label: Describe the bug
+      description: Please describe the bug you have, with a clear and concise description
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Please provide detailed steps to reproduce the issue you are having
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      description: Please describe the behaviour you are expecting, with reference if this is available to you
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence
+      description: |
+        If you have any screenshots or videos that you can provide, please list them here.
+        If you have any reference material which may help us, please list them here.
+        
+        Tip: You can drag and drop images into this box to upload them.
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Simulator
+      description: Which simulator are you using?
+      options:
+        - P3Dv4
+        - P3Dv5
+        - P3Dv6
+        - Microsoft Flight Simulator 2020 (MSFS)
+      multiple: true
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Crash
+      description: Did this bug cause a crash?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Phase of flight
+      description: What phase of flight were you in?
+      options:
+        - Pre-flight
+        - Takeoff
+        - Climb
+        - Cruise
+        - Descent
+        - Approach
+        - Landing
+        - Post-flight
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Altitude
+      description: What was your altitude?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Acknowledgement
+        By submitting this issue, you understand that the TFDi Design team may need to contact you for more
+        information regarding this bug. If we request information, and it is no response provided within 2 weeks
+        your issue will be closed as "stale". You will be able to re-open the issue with a comment if this happens.
+  - type: checkboxes
+    attributes:
+      label: Agreement
+      description: By ticking this box, you understand and agree to the above statement
+      options:
+      - label: "Yes"
+        required: true
